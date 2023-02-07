@@ -1,3 +1,5 @@
+import '../styles/tokens-grid.css'
+
 interface TokensGridProps {
   tokens: Record<string, string>
   hasRemValue?: boolean
@@ -7,7 +9,7 @@ export function TokensGrid(props: TokensGridProps) {
   const { tokens, hasRemValue = false } = props
 
   return (
-    <table>
+    <table className="tokens-grid">
       <thead>
         <tr>
           <th>Name</th>
