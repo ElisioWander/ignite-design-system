@@ -16,7 +16,7 @@
 }
 
 .tokens-grid tbody td:first-child {
-  border-top-let-radius: 8px;
+  border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
 
